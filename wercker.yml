@@ -4,7 +4,7 @@ services:
 build:
   steps:
     - bundle-install
-    - rails-database-yml@0.0.4
+    - rails-database-yml
     - script:
         name: print database.yml
         code: cat config/database.yml
